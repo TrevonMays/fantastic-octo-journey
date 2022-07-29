@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.centered{
+    text-align: center;
+}
+.padded{
+    padding: 1rem;
+}
+
+.container{
+    width: 70%;
+    min-height: 100vh;
+    border-left: 4px dashed orangered;
+    border-right: 4px dashed orangered;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    color: dodgerblue;
+    text-align: center;
+}
+body{
+    background-color: purple;
+}
